@@ -12,7 +12,7 @@ const projects = [
     category: "Restaurant Management",
     description:
       "A full-stack restaurant ordering and management system built for real-world operations.",
-    image: "/images/projects/Dine_Flow.png",
+    image: "/images/projects/DineFlow.png",
     technologies: ["Next.js", "Node.js", "MongoDB"],
     href: "/projects/dineflow",
   },
@@ -22,7 +22,7 @@ const projects = [
     category: "AI · RAG System",
     description:
       "An intelligent support platform that uses AI and document retrieval to answer customer questions.",
-    image: "/images/projects/Ai Assistant.png",
+    image: "/images/projects/Ai Customer.png",
     technologies: ["Next.js", "Gemini", "MongoDB"],
     href: "/projects/ai-customer-support",
   },
@@ -32,7 +32,7 @@ const projects = [
     category: "Emergency Management",
     description:
       "A real-time emergency response platform connecting victims, rescue teams, and administrators.",
-    image: "/images/projects/Disaster System.png",
+    image: "/images/projects/Disaster .png",
     technologies: ["Next.js", "Node.js", "Socket.IO"],
     href: "/projects/disaster-response",
   },
