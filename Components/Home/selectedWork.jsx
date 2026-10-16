@@ -15,6 +15,7 @@ const projects = [
     image: "/images/projects/DineFlow.png",
     technologies: ["Next.js", "Node.js", "MongoDB"],
     href: "/projects/dineflow",
+    
   },
   {
     number: "02",
@@ -25,6 +26,7 @@ const projects = [
     image: "/images/projects/Ai Customer.png",
     technologies: ["Next.js", "Gemini", "MongoDB"],
     href: "/projects/ai-customer-support",
+    
   },
   {
     number: "03",
@@ -35,6 +37,7 @@ const projects = [
     image: "/images/projects/Disaster .png",
     technologies: ["Next.js", "Node.js", "Socket.IO"],
     href: "/projects/disaster-response",
+    
   },
 ];
 
@@ -90,33 +93,31 @@ const SelectedWork = () => {
                 href={project.href}
                 className="relative flex h-full flex-col rounded-[28px] border border-[#0F1D18]/10 bg-[#F8F3E8] p-3 shadow-[0_30px_70px_-45px_rgba(15,29,24,0.55)] transition-all duration-500 hover:-translate-y-1.5 hover:border-[#8A6A28]/40 hover:shadow-[0_45px_90px_-40px_rgba(15,29,24,0.7)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8A6A28]"
               >
-                {/* Image */}
-                <div className="relative overflow-hidden rounded-[20px] bg-[#0F1D18] ring-1 ring-[#0F1D18]/10">
-                  <div className="relative aspect-[4/3] w-full overflow-hidden">
-                    <Image
-                      src={project.image}
-                      alt={`${project.title} project screenshot`}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                    />
+  {/* Image */}
+<div className="relative overflow-hidden rounded-[20px] bg-[#0F1D18] ring-1 ring-[#0F1D18]/10">
+  <div className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden">
+    <Image
+      src={project.image}
+      alt={`${project.title} project screenshot`}
+      fill
+      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      className="object-contain px-2 transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+    />
 
-                    {/* Hover overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0F1D18]/55 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+    {/* Hover overlay */}
+    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0F1D18]/55 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-                    {/* Category chip */}
-                    <span className="absolute left-3.5 top-3.5 rounded-full border border-[#EFE8D8]/20 bg-[#0F1D18]/65 px-3 py-1 text-[11px] tracking-[0.04em] text-[#EFE8D8] backdrop-blur-md">
-                      {project.category}
-                    </span>
+    {/* Category chip */}
+    <span className="absolute left-3.5 top-3.5 z-10 rounded-full border border-[#EFE8D8]/20 bg-[#0F1D18]/65 px-3 py-1 text-[11px] tracking-[0.04em] text-[#EFE8D8] backdrop-blur-md">
+      {project.category}
+    </span>
 
-                    {/* Arrow */}
-                    <div className="absolute bottom-3.5 right-3.5 flex h-11 w-11 translate-y-2 items-center justify-center rounded-full bg-[#C9A55C] text-[#0F1D18] opacity-0 shadow-[0_10px_30px_-8px_rgba(201,165,92,0.8)] transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
-                      <ArrowUpRight size={17} strokeWidth={1.8} />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Card Content */}
+    {/* Arrow */}
+    <div className="absolute bottom-3.5 right-3.5 z-10 flex h-11 w-11 translate-y-2 items-center justify-center rounded-full bg-[#C9A55C] text-[#0F1D18] opacity-0 shadow-[0_10px_30px_-8px_rgba(201,165,92,0.8)] transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+      <ArrowUpRight size={17} strokeWidth={1.8} />
+    </div>
+  </div>
+</div>{/* Card Content */}
                 <div className="flex flex-1 flex-col px-3 pb-3 pt-6">
                   {/* Number + Title */}
                   <div className="flex items-start justify-between gap-4">
