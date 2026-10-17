@@ -9,7 +9,7 @@ description:
 "A centralized system for managing guard assignments, attendance, fines, supervisors, and operations across four security zones.",
 image: "/images/projects/security 5.png",
 technologies: ["Next.js", "Node.js", "Express", "MongoDB"],
-href: "",
+href: "/projects/security-guard-management",
  github:"https://github.com/jkweb-dev/Security-Management-System.git"
 },
 {
@@ -20,7 +20,7 @@ description:
 "A recruitment management platform with candidate pipelines, drag-and-drop application stages, analytics, and password-reset functionality.",
 image: "/images/projects/Application Tracking 2.png",
 technologies: ["Next.js", "Node.js", "Express", "MongoDB"],
-href: "",
+href: "/projects/application-tracking-system",
  github:"https://github.com/jkweb-dev/Application-Tracking-System-SAAS-.git"
 },
 {
@@ -31,7 +31,7 @@ description:
 "An AI support assistant that answers questions using uploaded documents through text extraction, embeddings, and similarity-based retrieval.",
 image: "/images/projects/Ai4.png",
 technologies: ["Next.js", "Gemini", "MongoDB","Socket.IO" , "Embeddings"],
-href: "",
+href: "/projects/ai-customer-support",
  github:"https://github.com/jkweb-dev/Ai-Customer-Support-System.git"
 },
 {
@@ -42,7 +42,7 @@ description:
 "A role-based emergency response platform for incident reporting, location mapping, rescue-team coordination, and live status updates.",
 image: "/images/projects/Disaster 2.png",
 technologies: ["Next.js", "Node.js", "MongoDB", "Leaflet"],
-href: "",
+href: "/projects/disaster-management-system",
  github:"https://github.com/jkweb-dev/Disaster-Management-System.git"
 },
 {
@@ -53,7 +53,7 @@ description:
 "A restaurant ordering and management platform with menu administration, checkout, order tracking, and delivery workflows.",
 image: "/images/projects/DineFlow1.png",
 technologies: ["Next.js", "Express", "MongoDB", "Cloudinary"],
-href: "",
+href: "/projects/dineflow",
  github: "https://github.com/jkweb-dev/Dine_Flow.git"
 },
 {
@@ -64,7 +64,7 @@ description:
 "A product-focused online shopping experience designed to make browsing products and exploring an online store simple and intuitive.",
 image: "/images/projects/Ecommerce6.png",
 technologies: ["React", "JavaScript", "CSS" , "MongoDB"],
-href: "",
+href: "/projects/mini-ecommerce",
  github: "https://github.com/jkweb-dev/Basic-E_commerce-.git"
 },
 ];

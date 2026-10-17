@@ -87,8 +87,8 @@ const ProjectCard = ({ project, index }) => {
     GitHub
   </a>
 
-  <button
-    type="button"
+  <a
+    href={project.href}
     className="group/details inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-[#C9A55C] px-5 py-3 text-sm font-medium text-[#0F1D18] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#E9C77F]"
   >
     <FileText size={16} />
@@ -97,7 +97,7 @@ const ProjectCard = ({ project, index }) => {
       size={15}
       className="transition-transform duration-300 group-hover/details:translate-x-0.5 group-hover/details:-translate-y-0.5"
     />
-  </button>
+  </a>
 </div>
         <div className="mt-6 h-px w-full bg-[#EFE8D8]/10" />
       </div>

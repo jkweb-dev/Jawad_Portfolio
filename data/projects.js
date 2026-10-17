@@ -225,7 +225,7 @@ export const projects = [
   {
     id: "security-guard-management",
     number: "03",
-    title: "Security Guard Management System",
+    title: "Security GuardManagement System",
     subtitle: "Security Personnel and Site Operations Management",
     category: "Full-Stack Management System",
     shortDescription:
