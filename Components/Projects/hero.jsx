@@ -79,28 +79,65 @@ export const ProjectHero = ({ project }) => {
         </div>
 
         {/* Project image */}
-        <div className="relative mx-auto w-full max-w-2xl lg:max-w-none">
-          <div className="pointer-events-none absolute -inset-5 rounded-full bg-[#C9A55C]/[0.07] blur-3xl" />
+       
+<div className="relative mx-auto w-full max-w-2xl lg:max-w-none">
+  {/* Soft gold ambient glow */}
+  <div className="pointer-events-none absolute -inset-6 rounded-[2rem] bg-[#C9A55C]/[0.10] blur-3xl" />
 
-          {heroImage ? (
-            <div className="relative aspect-[16/10] overflow-hidden rounded-xl border border-white/15 bg-[#0C1C16] shadow-2xl shadow-black/40">
-              <Image
-                src={heroImage.src}
-                alt={heroImage.alt || `${project.title} preview`}
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover object-top transition-transform duration-700 hover:scale-[1.02]"
-              />
+  {heroImage ? (
+    <div className="relative p-3 sm:p-4">
+      {/* Outer decorative frame */}
+      <div
+        className="pointer-events-none absolute inset-0 border border-[#C9A55C]/50"
+        style={{
+          clipPath:
+            "polygon(0 0, 92% 0, 100% 12%, 100% 100%, 8% 100%, 0 88%)",
+        }}
+      />
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#06130F]/30 via-transparent to-white/[0.03]" />
-            </div>
-          ) : (
-            <div className="flex aspect-[16/10] items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-sm text-[#9CA79F]">
-              Project preview unavailable
-            </div>
-          )}
-        </div>
+      {/* Inner fine border */}
+      <div
+        className="pointer-events-none absolute inset-[5px] border border-white/[0.12]"
+        style={{
+          clipPath:
+            "polygon(0 0, 92% 0, 100% 12%, 100% 100%, 8% 100%, 0 88%)",
+        }}
+      />
+
+      {/* Gold corner accents */}
+      <span className="pointer-events-none absolute left-0 top-0 z-10 h-10 w-10 border-l-2 border-t-2 border-[#E6CD91]" />
+      <span className="pointer-events-none absolute bottom-0 right-0 z-10 h-10 w-10 border-b-2 border-r-2 border-[#E6CD91]" />
+
+      {/* Image */}
+      <div
+        className="relative aspect-[16/10] overflow-hidden bg-[#0C1C16] shadow-2xl shadow-black/40"
+        style={{
+          clipPath:
+            "polygon(0 0, 92% 0, 100% 12%, 100% 100%, 8% 100%, 0 88%)",
+        }}
+      >
+        <Image
+          src={heroImage.src}
+          alt={heroImage.alt || `${project.title} preview`}
+          fill
+          priority
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="object-cover object-top transition-transform duration-700 hover:scale-[1.03]"
+        />
+
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#06130F]/40 via-transparent to-white/[0.04]" />
+      </div>
+
+      {/* Small decorative marker */}
+      <span className="absolute -bottom-2 left-8 h-1 w-12 bg-[#C9A55C]" />
+    </div>
+  ) : (
+    <div className="flex aspect-[16/10] items-center justify-center border border-white/10 bg-white/[0.03] text-sm text-[#9CA79F]">
+      Project preview unavailable
+    </div>
+  )}
+</div>
+
       </div>
     </section>
   );

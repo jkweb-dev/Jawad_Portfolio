@@ -94,13 +94,13 @@ export const ProjectShowcase = ({ project }) => {
           <div className="grid gap-6">
             {screenshots.map((screenshot, index) => (
               <figure key={screenshot.src}>
-                <div className="relative aspect-[16/10] overflow-hidden rounded-xl border border-white/10 bg-[#0C1C16] sm:aspect-[16/8]">
+                <div className="relative aspect-[16/8] overflow-hidden rounded-xl border border-white/10 bg-[#0C1C16] sm:aspect-[16/8]">
                   <Image
                     src={screenshot.src}
                     alt={screenshot.alt || `${project.title} screenshot`}
                     fill
                     sizes="(max-width: 768px) 100vw, 90vw"
-                    className="object-cover object-top"
+                    className="object-contain object-top"
                   />
                 </div>
 
