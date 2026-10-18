@@ -95,13 +95,13 @@ export const projects = [
       },
       {
         src: "/images/Work/Dine2.png",
-        alt: "DineFlow restaurant administration dashboard",
-        caption: "Administration Dashboard",
+        alt: "Deals Interface",
+        caption: "Deals Interface",
       },
       {
         src: "/images/Work/Dine3.png",
         alt: "DineFlow order and delivery interface",
-        caption: "Order and Delivery Management",
+        caption: "Administration Dashboard",
       },
     ],
     github: "https://github.com/jkweb-dev/Dine_Flow.git",
@@ -201,18 +201,18 @@ export const projects = [
     screenshots: [
       {
         src: "/images/Work/Ai1.png",
+        alt: "AI customer support System",
+        caption: "Main Layout",
+      },
+      {
+        src: "/images/Work/Ai2.png",
         alt: "AI customer support chatbot interface",
         caption: "AI Support Chatbot",
       },
       {
-        src: "/images/Work/Ai2.png",
-        alt: "AI customer support administration dashboard",
-        caption: "Administration Dashboard",
-      },
-      {
         src: "/images/Work/Ai3.png",
-        alt: "Document-based AI support interface",
-        caption: "Knowledge-Based Responses",
+        alt: "Ticket Creation",
+        caption: "Ticket Creation",
       },
     ],
     github: "https://github.com/jkweb-dev/Ai-Customer-Support-System.git",
@@ -307,13 +307,13 @@ export const projects = [
     screenshots: [
       {
         src: "/images/Work/Security1.png",
-        alt: "Security Guard Management System dashboard",
-        caption: "Management Dashboard",
+        alt: "Security Guard Management System ",
+        caption: "Main Page",
       },
       {
         src: "/images/Work/Security2.png",
-        alt: "Security guard profiles and personnel records",
-        caption: "Guard Profiles",
+        alt: "Administration Dashboard",
+        caption: "Administration Dashboard",
       },
       {
         src: "/images/Work/Security3.png",
@@ -410,8 +410,8 @@ export const projects = [
       },
       {
         src: "/images/Work/Ecommerce2.png",
-        alt: "Mini e-commerce product details page",
-        caption: "Product Details",
+        alt: "Mini e-commerce products category Page",
+        caption: "Product Category (Watches)",
       },
       {
         src: "/images/Work/Ecommerce3.png",
@@ -496,8 +496,8 @@ export const projects = [
     screenshots: [
       {
         src: "/images/Work/ATS1.png",
-        alt: "Application Tracking System job listings",
-        caption: "Job Listings",
+        alt: "Application Tracking System ",
+        caption: "Main Page",
       },
       {
         src: "/images/Work/ATS2.png",
@@ -506,8 +506,8 @@ export const projects = [
       },
       {
         src: "/images/Work/ATS3.png",
-        alt: "Application Tracking System recruitment interface",
-        caption: "Recruitment Interface",
+        alt: "Application Tracking System Job deatils",
+        caption: "Job Details Overview",
       },
     ],
     github: "https://github.com/jkweb-dev/Application-Tracking-System-SAAS-.git",
@@ -593,18 +593,18 @@ export const projects = [
     screenshots: [
       {
         src: "/images/Work/Disaster1.png",
-        alt: "Disaster Management System incident reporting interface",
-        caption: "Disaster Reporting",
+        alt: "Disaster Management System ",
+        caption: "Main Page",
       },
       {
         src: "/images/Work/Disaster2.png",
-        alt: "Disaster Management System administration dashboard",
-        caption: "Administration Dashboard",
+        alt: "Report Emergency Overview",
+        caption: "Report Emergency Section",
       },
       {
         src: "/images/Work/Disaster3.png",
-        alt: "Disaster Management System rescue coordination interface",
-        caption: "Rescue Coordination",
+        alt: "Disaster Management System administration dashboard",
+        caption: "Administration Dashboard",
       },
     ],
     github: "https://github.com/jkweb-dev/Disaster-Management-System.git",
