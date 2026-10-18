@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowUpRight,  } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
-export const ProjectHero = ({ project }) => {
+ const ProjectHero = ({ project }) => {
   const heroImage = project.screenshots?.[0];
 
   return (
@@ -142,3 +142,6 @@ export const ProjectHero = ({ project }) => {
     </section>
   );
 };
+
+
+export default ProjectHero;

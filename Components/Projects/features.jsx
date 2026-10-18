@@ -18,7 +18,7 @@ const featureIcons = [
   ShieldCheck,
 ];
 
-export const ProjectFeatures = ({ project }) => {
+const ProjectFeatures = ({ project }) => {
   const features = project.features || [];
 
   return (
@@ -68,3 +68,5 @@ export const ProjectFeatures = ({ project }) => {
     </section>
   );
 };
+
+export default ProjectFeatures;

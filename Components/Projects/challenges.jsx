@@ -1,7 +1,7 @@
 
 import { ArrowRight, Wrench } from "lucide-react";
 
-export const ProjectChallenges = ({ project }) => {
+ const ProjectChallenges = ({ project }) => {
   const challenges = project.challenges || [];
 
   return (
@@ -72,3 +72,5 @@ export const ProjectChallenges = ({ project }) => {
     </section>
   );
 };
+
+export default ProjectChallenges;

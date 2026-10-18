@@ -3,7 +3,7 @@ import { Users, Building2, UserRound } from "lucide-react";
 
 const audienceIcons = [Users, Building2, UserRound];
 
-export const ProjectAudience = ({ project }) => {
+ const ProjectAudience = ({ project }) => {
   const users = project.targetUsers || [];
 
   return (
@@ -40,3 +40,5 @@ export const ProjectAudience = ({ project }) => {
     </section>
   );
 };
+
+export default ProjectAudience;

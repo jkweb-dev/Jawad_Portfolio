@@ -1,7 +1,7 @@
 
 import { Target, Lightbulb } from "lucide-react";
 
-export const ProjectOverview = ({ project }) => {
+ const ProjectOverview = ({ project }) => {
   return (
     <section className="border-b border-white/[0.08] py-10 sm:py-14">
       <div className="grid gap-8 lg:grid-cols-[1fr_0.95fr] lg:gap-14">
@@ -56,3 +56,6 @@ export const ProjectOverview = ({ project }) => {
     </section>
   );
 };
+
+
+export default ProjectOverview;

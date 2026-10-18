@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
 
-export const ProjectNavigation = ({ projects, currentProject }) => {
+ const ProjectNavigation = ({ projects, currentProject }) => {
   const pathname = usePathname();
 
   return (
@@ -70,3 +70,5 @@ export const ProjectNavigation = ({ projects, currentProject }) => {
     </aside>
   );
 };
+
+export default ProjectNavigation;

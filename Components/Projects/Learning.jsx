@@ -10,7 +10,7 @@ import {
 
 import { FaGithub } from "react-icons/fa";
 
-export const ProjectLearnings = ({ project }) => {
+ const ProjectLearnings = ({ project }) => {
   const learnings = project.learnings || [];
 
   return (
@@ -98,3 +98,5 @@ export const ProjectLearnings = ({ project }) => {
     </section>
   );
 };
+
+export default ProjectLearnings;

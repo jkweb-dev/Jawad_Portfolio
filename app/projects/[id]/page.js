@@ -6,14 +6,14 @@ import { projects } from "@/data/projects";
 
 import Footer from "@/Components/Home/footer";
 
-import { ProjectHero } from "@/Components/Projects/hero";
-import { ProjectOverview } from "@/Components/Projects/Overview";
-import { ProjectAudience } from "@/Components/Projects/Audience";
-import { ProjectFeatures } from "@/Components/Projects/features";
-import { ProjectShowcase } from "@/Components/Projects/Showcase";
-import { ProjectChallenges } from "@/Components/Projects/challenges";
-import { ProjectLearnings } from "@/Components/Projects/Learning";
-import { ProjectNavigation } from "@/Components/Projects/navigation";
+import  ProjectHero  from "@/Components/Projects/hero";
+import  ProjectOverview  from "@/Components/Projects/Overview";
+import  ProjectAudience  from "@/Components/Projects/Audience";
+import  ProjectFeatures  from "@/Components/Projects/features";
+import  ProjectShowcase  from "@/Components/Projects/Showcase";
+import  ProjectChallenges  from "@/Components/Projects/challenges";
+import  ProjectLearnings  from "@/Components/Projects/Learning";
+import  ProjectNavigation  from "@/Components/Projects/navigation";
 
 const ProjectDetails = async ({ params }) => {
   const { id } = await params;

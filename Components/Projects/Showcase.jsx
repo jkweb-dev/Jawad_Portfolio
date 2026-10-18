@@ -18,7 +18,7 @@ const technologyGroups = [
   { key: "integrations", label: "Integrations", icon: Plug },
 ];
 
-export const ProjectShowcase = ({ project }) => {
+ const ProjectShowcase = ({ project }) => {
   const screenshots = project.screenshots?.slice(1, 3) || [];
 
   const technologies = project.technologies || {};
@@ -121,3 +121,5 @@ export const ProjectShowcase = ({ project }) => {
     </section>
   );
 };
+
+export default ProjectShowcase;
