@@ -19,7 +19,29 @@ export const metadata = {
 
   description:
     "I'm Jawad Khan, a full-stack web developer building modern, responsive web applications with React, Next.js, Node.js, Express, and MongoDB.",
-};;
+
+    
+openGraph: {
+  title: "Jawad Khan | Full-Stack Web Developer",
+  description:
+    "Explore Jawad Khan's portfolio, full-stack web development projects, and expertise in building modern web applications.",
+  url: "",
+  siteName: "Jawad Khan Portfolio",
+  type: "website",
+  images: [
+    {
+      url: "/images/profile/me.jpeg",
+      width: 1200,
+      height: 630,
+      alt: "Jawad Khan — Full-Stack Web Developer",
+    },
+  ],
+},
+
+};
+
+
+
 
 export default function RootLayout({ children }) {
   return (
