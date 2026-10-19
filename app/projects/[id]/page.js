@@ -15,6 +15,35 @@ import  ProjectChallenges  from "@/Components/Projects/challenges";
 import  ProjectLearnings  from "@/Components/Projects/Learning";
 import  ProjectNavigation  from "@/Components/Projects/navigation";
 
+
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+
+  const project = projects.find((item) => item.id === id);
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+      description: "The requested project could not be found.",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const projectName = project.title || project.name || project.id;
+
+  const projectDescription =
+    project.description ||
+    `Explore ${projectName}, a web development project by Jawad Khan. Discover its features, technologies, and development process.`;
+
+  return {
+    title: projectName,
+    description: projectDescription,
+  };
+}
+
 const ProjectDetails = async ({ params }) => {
   const { id } = await params;
 
