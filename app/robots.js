@@ -1,5 +1,5 @@
 
-const SITE_URL = "https://your-domain.com";
+const SITE_URL = "https://jawad-portfolio-olive.vercel.app";
 
 export default function robots() {
   return {

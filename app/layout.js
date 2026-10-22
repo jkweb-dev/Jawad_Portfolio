@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata = {
 
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://jawad-portfolio-olive.vercel.app"),
   
   title: {
     default: "Jawad Khan | Full-Stack Web Developer",
@@ -20,7 +20,7 @@ openGraph: {
   title: "Jawad Khan | Full-Stack Web Developer",
   description:
     "Explore Jawad Khan's portfolio, full-stack web development projects, and expertise in building modern web applications.",
-  url: "",
+  url: "https://jawad-portfolio-olive.vercel.app",
   siteName: "Jawad Khan Portfolio",
   type: "website",
   images: [
